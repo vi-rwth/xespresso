@@ -198,7 +198,7 @@ class Espresso(FileIOCalculator):
                 "Warnning: parameter %s not used, please check." % unuse_parameters
             )
         sorted_parameters["input_data"]["CONTROL"]["prefix"] = prefix
-        sorted_parameters["input_data"]["CONTROL"]["verbosity"] = "high"
+        sorted_parameters["input_data"]["CONTROL"]["verbosity"] = "low"
         # pprint(sorted_parameters)
         return sorted_parameters
 
