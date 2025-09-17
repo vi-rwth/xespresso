@@ -356,16 +356,7 @@ qe_namespace = {
             "constrained_magnetization": ["CHARACTER", []],
             "degauss": ["REAL", []],
             "dftd3_threebody": ["LOGICAL", []],
-            "dftd3_version": [
-                "integer",
-                [
-                    "dftd3_version=2",
-                    "dftd3_version=3",
-                    "dftd3_version=4",
-                    "dftd3_version=5",
-                    "dftd3_version=6",
-                ],
-            ],
+            "dftd3_version": ["INTEGER",[]],
             "eamp": ["REAL", []],
             "ecfixed": ["REAL", []],
             "ecutfock": ["REAL", []],
